@@ -1,0 +1,95 @@
+<div class="ui middle aligned center aligned grid">
+    <div class="column">
+        <h2 class="ui teal image header">
+      <div class="content">
+       Grassroots Volunteer Form
+      </div>
+    </h2>
+        <form class="ui large form">
+            <div class="ui stacked segment">
+                <div class="ui huge header">Personal Information</div>
+                <div class="field">
+                    <div class="ui left icon input">
+                        <input type="text" name="slack" placeholder="Slack Name">
+                        <i class="fa fa-slack"></i>
+                    </div>
+                    <div class="ui left icon input">
+                        <input type="text" name="email" placeholder="E-mail address">
+                        <i class="fa fa-envelope-o"></i>
+                    </div>
+                    <div class="ui left icon input">
+                        <input type="text" name="reddit" placeholder="Reddit Username">
+                        <i class="fa fa-reddit"></i>
+                    </div>
+                    <div class="ui left icon input">
+                        <input type="text" name="state" placeholder="State of Residence">
+                        <i class="fa fa-flag"></i>
+                    </div>
+                    <div class="ui left icon input">
+                        <div class="ui icon button test" data-content="When we identify a candidate of interest in your district, 
+                           we'd like to contact you about local efforts. If you don't know your district, 
+                           you can lookup your district here: https://www.govtrack.us/congress/members/map">
+                            <i class="fa fa-question"></i>
+                        </div>
+                        <input type="text" name="district" placeholder="Your District">
+                        <i class="fa fa-thumb-tack"></i>
+
+                    </div>
+                    <div class="ui left icon input"></div>
+                    <div class="inline fields">
+                        <label>When are you available?</label>
+                        <div class="field">
+                            <div class="ui radio checkbox">
+                                <input type="radio" name="frequency" checked="checked">
+                                <label>Weekday Mornings</label>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui radio checkbox">
+                                <input type="radio" name="frequency">
+                                <label>Weekday Days</label>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui radio checkbox">
+                                <input type="radio" name="frequency">
+                                <label>Weekday Nights</label>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui radio checkbox">
+                                <input type="radio" name="frequency">
+                                <label>Weekend Mornings</label>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui radio checkbox">
+                                <input type="radio" name="frequency">
+                                <label>Weekend Days</label>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui radio checkbox">
+                                <input type="radio" name="frequency">
+                                <label>Weekend Nights</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="ui left icon input">
+                        <input type="password" name="password" placeholder="Password">
+                        <i class="fa fa-key"></i>
+                    </div>
+                </div>
+                <div class="ui fluid large teal submit button">Login</div>
+            </div>
+
+            <div class="ui error message"></div>
+
+        </form>
+    </div>
+</div>
+<script>
+    $('.test').popup();
+</script>
