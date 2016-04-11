@@ -5,15 +5,15 @@ app.config(function ($stateProvider, $urlRouterProvider){
     $stateProvider
         .state('index',{
                url:'/home'
-               ,templateUrl: 'partial-index.html'
+               ,templateUrl: 'partials/partial-index.html'
                })
         .state('login',{
                url:'/login'
-               ,templateUrl: 'partial-login.html'
+               ,templateUrl: 'partials/partial-login.html'
                })
      .state('register',{
                url:'/register'
-               ,templateUrl: 'partial-registration.html'
+               ,templateUrl: 'partials/partial-registration.html'
                });
 });
 
